@@ -1,3 +1,4 @@
+#include "Shift_Register.h"
 void Shift_Register_Config(void)				
 {
 	RCC->APB2ENR |= RCC_APB2ENR_IOPCEN;
